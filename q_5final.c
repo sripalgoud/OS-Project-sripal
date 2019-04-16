@@ -43,7 +43,7 @@ int accept(processes P[]){
 	}
 	printf("\n PROCESS.\tBURST TIME.\tARRIVAL TIME.\tPRIORITY");
 	for(i=0;i<n;i++)
-		printf("\n %s\t%d\t%d\t%d",P[i].name,P[i].bt,P[i].at,P[i].prt);
+		printf("\n %s\t\t%d\t\t%d\t%d",P[i].name,P[i].bt,P[i].at,P[i].prt);
 	printf("\n\nNow select the algorithm by opting option 2 to perform the Task");
 	return n;
 }
